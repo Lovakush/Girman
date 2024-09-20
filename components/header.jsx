@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 
 function connect(){
-  window.open("https://mail.google.com/mail/u/0/#inbox/FMfcgzQVzXgdMnRTQcZNwngdxZxQLjvh?compose=DmwnWsvBbVdvJkGBXTjTqxTSBfbkHSDnJhHmhMSwdjSqCbgMHJwHvZSpmXNlKCCmSfTzvgRnGhFg", '_blank');
+  window.open("https://mail.google.com/mail/u/0/#inbox/FMfcgzQVzXgdMnRTQcZNwngdxZxQLjvh?compose=GTvVlcSHwsJSnpDCjsgFqFlDNfmqkvZKfmVPMpRkKFMWFnKrzmVHXZbMttVbPpdPdfnnljFnDsvjw&projector=1&messagePartId=0.1", '_blank');
 }
 
 const Header = () => {
