@@ -2,6 +2,11 @@ import React from 'react';
 import logo from '../public/logo2.svg'
 import Image from 'next/image'
 
+
+function connect(){
+  window.open("https://mail.google.com/mail/u/0/#inbox/FMfcgzQVzXgdMnRTQcZNwngdxZxQLjvh?compose=DmwnWsvBbVdvJkGBXTjTqxTSBfbkHSDnJhHmhMSwdjSqCbgMHJwHvZSpmXNlKCCmSfTzvgRnGhFg", '_blank');
+}
+
 const Header = () => {
   return (
     <header>
@@ -17,7 +22,7 @@ const Header = () => {
             <li><a href="#" className="text-blue font-medium underline">SEARCH</a></li>
             <li><a href="https://www.girmantech.com" className="text-black font-medium hover:underline">WEBSITE</a></li>
             <li><a href="https://www.linkedin.com/company/girmantech/" className="text-black font-medium hover:underline">LINKEDIN</a></li>
-            <li><a href="mailto:contact@girmantech.com" className="text-black font-medium hover:underline">CONTACT</a></li>
+            <button onClick={connect}className="text-black font-medium hover:underline">CONTACT</button>
           </ul>
         </nav>
       </div>
