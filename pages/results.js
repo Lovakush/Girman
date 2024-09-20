@@ -168,7 +168,7 @@ const Results = () => {
 		const fetchUsers = async () => {
 			setIsLoading(true);
 			try {
-				const response = await fetch(`http://localhost:8999/user?search=${debouncedSearchTerm}`);
+				const response = await fetch(`https://girman-bdt4.onrender.com/user?search=${debouncedSearchTerm}`);
 				if (response.ok) {
 					const data = await response.json();
 	
